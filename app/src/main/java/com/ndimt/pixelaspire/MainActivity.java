@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
         webView.setWebViewClient(new WebViewClient());
         webView.setWebChromeClient(new WebChromeClient());
-        webView.loadUrl("file:///android_asset/v2-fixed.html");
+        webView.loadUrl("file:///android_asset/v3.html");
         setContentView(webView);
     }
 
